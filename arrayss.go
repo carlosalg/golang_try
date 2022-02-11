@@ -17,7 +17,7 @@ func main() {
 
 	var twoO [2][3]int
 	for i := 0; i < 2; i++ {
-		for j := 0; i < 2; i++ {
+		for j := 0; j < 3; j++ {
 			twoO[i][j] = i + j
 		}
 	}
